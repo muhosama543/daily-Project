@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #c9c1c1;
+}
+
+.container {
+    border: 1px solid black;
+    background-color: #eaeaea;
+    width: 850px;
+    margin: auto;
+}
+
+
+
+/* Navigation Bar */
+.navbar {
+    padding: 15px 15 5px 15px;
+}
+
+.navbar h1 {
+    padding-bottom: 20px;
+    
+}
+
+.li {
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 1px solid black;   
+}
+
+.li:first-child {
+    padding-left: 0;
+}
+
+.li:last-child {
+    border-right: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Image content */
+.imageContent {
+    width: auto;
+    height: 300px;
+}
+
+.imageContent img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Content */
+.judul {
+    padding: 20px;
+}
+
+.judul h1 {
+    font-size: 28px;
+}
+
+.judul p {
+    font-size: smaller;
+}
+
+.isi {
+    padding: 10px;
+}
+
+
+.isi p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+
+/* Footer */
+.footer {
+    height: 5%;
+    background-color: black;
+    text-align: center;
+}
+
+.footer h3 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    color: white;
+}
+
